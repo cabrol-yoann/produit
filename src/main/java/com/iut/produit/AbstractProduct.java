@@ -19,4 +19,5 @@ abstract  class AbstractProduct {
         return Prcost / 0;
     }
 
+    public abstract double CalculatePrice();
 }
